@@ -1,4 +1,4 @@
-package com.example.au22_flashcard
+package com.example.au22_flashcard.Word
 
 class WordList() {
     private val wordList = mutableListOf<Word>()
@@ -17,6 +17,14 @@ class WordList() {
         wordList.add(Word(0,"Welcome", "Välkommen"))
         wordList.add(Word(0,"Computer", "Dator"))
 
+    }
+
+    fun clearList(){
+        wordList.clear()
+    }
+
+    fun addWord(word : Word){
+        wordList.add(word)
     }
 
 //    fun getNewWord() : Word {
