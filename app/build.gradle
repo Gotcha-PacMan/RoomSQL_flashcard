@@ -29,6 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'com.example.au22_flashcard'
 }
 
 apply plugin : "kotlin-kapt"

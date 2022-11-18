@@ -49,14 +49,15 @@ class MainActivity : AppCompatActivity() {
 
         return true
     }
-
-
-
-
-
-
-
-
-
-
 }
+
+
+//Vad ska göras:
+
+//1. skapa en ny aktivitet där ett nytt ord får skrivas in
+//2. spara det nya ordet i databasen.
+
+//3. I main activity läs in alla ord från databasen
+
+// (anväd coroutiner när ni läser och skriver till databasen se tidigare exempel)
+
